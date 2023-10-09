@@ -1,0 +1,80 @@
+
+#trending{
+    height : 43vh;
+    width : 90vw;
+    position : relative;
+    left : 5%;
+}
+#trendingNav{
+    width : 100%;
+    height : 5vh;
+    display: flex;
+    align-items: center;
+    gap : 20px;
+    padding-left: 7vh;
+}
+#trendingNav h3{
+    font-weight: 600;
+    font-size: 3vh;
+}
+#today{
+    width: 10vw;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    border : 1px solid black;
+}
+.bt1{
+    width: 50%;
+    height : 100%;
+    padding-left: 7px;
+    background : linear-gradient(to right,#174d79,#032541);
+    color : white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.bt2{
+    width : 50%;
+    height : 100%;
+    padding-right : 7px;
+    color : black;
+    border-radius: 20px;
+}
+
+#cardsSections{
+    height : 38vh;
+    width : 90vw;
+    padding-left : 7vh;
+    padding-top : 2vh;
+    display : flex;
+    gap : 30px;
+    overflow-x: auto;
+}
+
+.card{
+    height : 33vh;
+    width : 10vw;
+    position : relative;
+}
+.cardImg{
+    width : 10vw;
+    height : 26vh;
+    overflow : hidden;
+    border-radius : 10px;
+}
+.card-img img{
+    width : 100%;
+    height : 100%;
+    background-size : cover;
+    background-position : center;
+}
+.details{
+    width : 10vw;
+    height : 5vh;
+    position : absolute;
+    bottom: 0%;
+    padding-left : 10px;
+}
