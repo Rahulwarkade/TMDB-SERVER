@@ -18,37 +18,37 @@ const Navigation = () => {
           </Link>
           <div className={style.movies}>
             <div className={style.hover}></div>
-            <Link href="/movies/">Popular</Link>
-            <Link href="/movies/now-playing">Now Playing</Link>
-            <Link href="/movies/upcoming">Upcoming</Link>
-            <Link href="/movies/top-rated">Top Rated</Link>
+            <Link className={style.link2} href="/movies/">Popular</Link>
+            <Link className={style.link2} href="/movies/now-playing">Now Playing</Link>
+            <Link className={style.link2} href="/movies/upcoming">Upcoming</Link>
+            <Link className={style.link2} href="/movies/top-rated">Top Rated</Link>
           </div>
           <Link className={style.link} id={style.S} href="#">
             TV Shows
           </Link>
           <div className={style.shows}>
             <div className={style.hover2}></div>
-            <Link href="#">Popular</Link>
-            <Link href="#">Airing Today</Link>
-            <Link href="#">On TV</Link>
-            <Link href="#">Top Rated</Link>
+            <Link className={style.link2} href="#">Popular</Link>
+            <Link className={style.link2} href="#">Airing Today</Link>
+            <Link className={style.link2} href="#">On TV</Link>
+            <Link className={style.link2} href="#">Top Rated</Link>
           </div>
           <Link className={style.link} id={style.P} href="#">
             People
           </Link>
           <div className={style.people}>
             <div className={style.hover3}></div>
-            <Link href="#">Popular People</Link>
+            <Link className={style.link2} href="#">Popular People</Link>
           </div>
           <Link className={style.link} id={style.m} href="#">
             More
           </Link>
           <div className={style.more}>
             <div className={style.hover4}></div>
-            <Link href="#">Discussions</Link>
-            <Link href="#">Leaderboard</Link>
-            <Link href="#">Support</Link>
-            <Link href="#">API</Link>
+            <Link className={style.link2} href="#">Discussions</Link>
+            <Link className={style.link2} href="#">Leaderboard</Link>
+            <Link className={style.link2} href="#">Support</Link>
+            <Link className={style.link2} href="#">API</Link>
           </div>
         </div>
         <div id={style.navr}>

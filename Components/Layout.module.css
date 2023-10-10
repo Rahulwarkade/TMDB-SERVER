@@ -1,7 +1,9 @@
+.main{
+    width : 100%;
+    position : relative;
+}
 .layout{
-    width : 86vw;
-    height : 200vh;
-    background-color : green;
+    width : 84vw;
     left : 8%;
     position : relative;
     display : flex;
@@ -23,26 +25,23 @@
 
 .left{
     width : 20vw;
-    height : 100%;
-    background-color : yellow;
+    height : 140vh;
+    display : flex;
+    flex-direction : column;
+    gap : 12px;
 }
 .right{
     width : 64vw;
-    min-height: 180vh;
-    position : relative;
+    min-height: 145;  
     display : flex;
-    flex-direction : column;
-}
-#cardsSections{
-    height : 36vh;
-    width : 100%;
-    padding-left : 30px;
-    padding-top : 2vh;
-    display : flex;
-    gap : 30px;
+    flex-direction : row;
+    flex-wrap : wrap;
+    gap : 25px;
+    align-content: flex-start;
+    padding-left: 3vw;
+    z-index: 2;
     position : relative;
 }
-
 .card{
     height : 33vh;
     width : 10vw;
@@ -50,6 +49,7 @@
     background-color : white;
     overflow : hidden;
     border-radius : 10px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
 }
 .cardImg{
     width : 10vw;
@@ -68,4 +68,74 @@
     position : absolute;
     bottom: 0%;
     padding-left : 10px;
+    line-height: 6px;
+}
+.details h5{
+    font-size : 14px;
+}
+.details p{
+    font-size : 10px;
+}
+
+.button{
+    width : 55vw;
+    height : 4vh;
+    background-color : blue;
+    border-radius: 7px;
+    text-align : center;
+    color : white;
+    position : relative;
+    left : calc(8% + 23vw);
+}
+
+.alpha{
+    width : 100%;
+    height : 6vh;
+    border-radius : 7px;
+    border : 1px solid rgba(0, 0, 0, 0.425);
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    padding : 20px;
+}
+.beta{
+    width : 100%;
+    height : 6vh;
+    border-radius : 7px;
+    border : 1px solid rgba(0, 0, 0, 0.425);
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    padding : 20px;
+}
+.delta{
+    width : 100%;
+    height : 84%;
+    border-radius : 7px;
+    border : 1px solid rgba(0, 0, 0, 0.425);
+    display : flex;
+    flex-direction : column;
+}
+.gama{
+    width : 100%;
+    height : 6vh;
+    border-radius : 7px;
+    border : 1px solid rgba(0, 0, 0, 0.425);
+}
+.u{
+    width : 100%;
+    height : 6vh;
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    padding : 20px;
+}
+.hotel{
+    width : 100%;
+    height: 10%;
+    border-top : 1px solid rgba(0, 0, 0, 0.425);
+    border-bottom : 1px solid rgba(0, 0, 0, 0.425);
+    display : flex;
+    flex-direction : column;
+    padding-left: 20px;
 }

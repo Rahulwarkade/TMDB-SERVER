@@ -16,7 +16,7 @@ const page = () => {
       const { data } = await axios.get(
         `?api_key=93cd5e2bd792a118f6ae7747817a3e39&page=${page}`
       );
-      // setMovies(data.results);
+      setMovies(data.results);
 
       const obj = JSON.stringify(data.results[17]);
       const { backdrop_path } = JSON.parse(obj);

@@ -2,7 +2,7 @@ import React from 'react'
 import '../globals.css'
 import Navigation from '@/Components/Navigation.js'
 import Layout from '@/Components/Layout.js'
-
+import '@/node_modules/bootstrap/dist/css/bootstrap.min.css';
 const page = () => {
   return (
     <>
