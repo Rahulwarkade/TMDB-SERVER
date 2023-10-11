@@ -56,7 +56,7 @@ const Layout = () => {
           <div className = {style.hotel}>
             <h6>show me</h6>
             <li>           
-            <input type="radio" id="every" />
+            <input type="radio" id="every" checked/>
             <label for="every">Everything</label>
             </li>
             <li>           
@@ -70,7 +70,54 @@ const Layout = () => {
 
           </div>
           <div className={style.india}>
-
+            <h6> Availibilities </h6>
+            <span>            <input type="checkbox" id="avil" checked/>
+            <label for="avail" style={{paddingLeft : "7px"}}>Search all availabilities?</label></span>
+          </div>
+          <div className={style.juliet}>
+          <h6> Release Dates </h6>
+            <span>
+            <label for="inp" style={{paddingRight : "7px"}}>from</label>
+              <input type="text" id="inp" />
+            </span>
+            <span><label for="input" style={{paddingRight : "24px"}}>to</label>
+            <input type="text" name="to" id="input"/></span>  
+          </div>
+          <div className={style.kilo}>
+            <h6>Geners</h6>
+            <button>Action</button>
+            <button>Adventure</button>
+            <button>Animation</button>
+            <button>Comedy</button>
+            <button>Crime</button>
+            <button>Documentary</button>
+            <button>Drama</button>
+            <button>Family</button>
+            <button>Fantasy</button>
+            <button>History</button>
+            <button>Horror</button>
+            <button>Music</button>
+            <button>Mystery</button>
+            <button>Romance</button>
+            <button>TV Movie</button>
+            <button>Thriller</button>
+            <button>War</button>
+            <button>Western</button>
+          </div>
+          <div className={style.lema}> 
+            <h6>Certification</h6>
+            <button> U </button>
+            <button> UA </button>
+            <button> A </button>
+          </div>
+          <div className={style.mumbai}> 
+            <h6>language?</h6>
+            <select  className="form-control">
+            <option value="Hinglish"> Hinglish</option>
+            <option value="Hinglish">Greek</option>
+            <option value="Hinglish">Latin</option>
+            <option value="Hinglish">English</option>
+            </select>
           </div>
           </div>
           <div className={style.gama}></div>

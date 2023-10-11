@@ -139,3 +139,77 @@
     flex-direction : column;
     padding-left: 20px;
 }
+.india{
+    width : 100%;
+    height : 6vh;
+    display : flex;
+    flex-direction : column;
+    border-bottom : 1px solid rgba(0, 0, 0, 0.425);
+    padding-left: 20px;
+}
+.juliet{
+    width : 100%;
+    height : 12vh;
+    display : flex;
+    flex-direction : column;
+    border-bottom : 1px solid rgba(0, 0, 0, 0.425);
+    padding-left: 20px;
+    gap : 7px;
+}
+.juliet input{
+    border : 1px solid rgba(0, 0, 0, 0.281);
+}
+
+.kilo {
+    width : 100%;
+    height : 30%;
+    display : flex;
+    flex-wrap: wrap;
+    border-bottom : 1px solid rgba(0, 0, 0, 0.425);
+    padding-left: 20px;
+    padding-top: 4vh;
+    gap : 24px;
+    position : relative;
+}
+.kilo h6{
+    position : absolute;
+    top : 7px;
+}
+.kilo button{
+    padding : 2px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    border-radius: 14px;
+}
+.kilo button:hover{
+    background-color : #01B4E4;
+}
+.lema{
+    width : 100%;
+    height : 8vh;
+    display : flex;
+    flex-wrap: wrap;
+    border-bottom : 1px solid rgba(0, 0, 0, 0.425);
+    padding-left: 20px;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    gap : 24px;
+    position : relative;
+}
+.lema h6{
+    position : absolute;
+    top : 7px;
+}
+.lema button{
+    padding : 2px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    border-radius: 14px;
+}
+.lema button:hover{
+    background-color : #01B4E4;
+}
+.mumbai{
+    width : 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.425);
+    height : 10vh;
+    padding : 10px
+}
