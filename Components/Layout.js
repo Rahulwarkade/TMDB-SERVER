@@ -119,8 +119,34 @@ const Layout = () => {
             <option value="Hinglish">English</option>
             </select>
           </div>
+          <div className={style.november}>
+            <h6>User Score</h6>
+            <span>
+            <label for='ra' >Score from 0 to 10 :</label>
+            <br></br>
+            <input type='range' min='-10' max="0"/>
+            </span>
           </div>
-          <div className={style.gama}></div>
+          <div className={style.Oscar}>
+          <h6>User Score</h6>
+            <span>
+            <label for='ran' >Score from 0 to 10 :</label>
+            <br></br>
+            <input id='ran' type='range' min='-10' max="0"/>
+            </span>
+          </div>
+          <div className={style.papa}>
+          <h6>User Score</h6>
+            <span>
+            <label for='ran' >Score from 0 to 10 :</label>
+            <br></br>
+            <input id='ran' type='range' min='-10' max="0"/>
+            </span>
+          </div>
+          </div>
+          <div className={style.gama}>
+            <h6>Search</h6>
+          </div>
         </div>
           <InfiniteScroll
             dataLength={movies.length}
