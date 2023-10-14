@@ -1,26 +1,32 @@
 import React from "react";
 import style from "./Trending.module.css";
 const Trending = (props) => {
-  const { movies } = props;
+  const { movies, title,buttons} = props;
+
   return (
     <>
       <div id={style.trending}>
         <div id={style.trendingNav}>
-          <h3>Trending</h3>
+          <h3>{title}</h3>
           <div id={style.today}>
-            <button className={style.bt1}>Today</button>
-            <button className={style.bt2}>This Week</button>
+            {buttons.length!=0 && buttons.map((item,index)=>{
+              
+            return (<button id={style.bt} className={style.btn}>{item}</button>)
+            })}
           </div>
         </div>
         <div id={style.cardsSections}>
           {movies.map((movie) => {
             return (
-              <div className={style.card}>
+              <div key = {movie.id} className={style.card}>
                 <div className={style.cardImg}>
-                  <img
+                {movie.poster_path?(                  <img
                     src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                     alt=""
-                  />
+                  />):(                  <img
+                    src={`https://moviereelist.com/wp-content/uploads/2019/07/poster-placeholder.jpg`}
+                    alt=""
+                  />)}
                   <div className={style.likes}></div>
                 </div>
                 <div className={style.details}>

@@ -21,17 +21,17 @@ const Navigation = () => {
             <Link className={style.link2} href="/movies/">Popular</Link>
             <Link className={style.link2} href="/movies/now-playing">Now Playing</Link>
             <Link className={style.link2} href="/movies/upcoming">Upcoming</Link>
-            <Link className={style.link2} href="/movies/top-rated">Top Rated</Link>
+            <Link className={style.link2} href="/movies/toprated">Top Rated</Link>
           </div>
           <Link className={style.link} id={style.S} href="#">
             TV Shows
           </Link>
           <div className={style.shows}>
             <div className={style.hover2}></div>
-            <Link className={style.link2} href="#">Popular</Link>
-            <Link className={style.link2} href="#">Airing Today</Link>
-            <Link className={style.link2} href="#">On TV</Link>
-            <Link className={style.link2} href="#">Top Rated</Link>
+            <Link className={style.link2} href="/tvshows/">Popular</Link>
+            <Link className={style.link2} href="/tvshows/today/">Airing Today</Link>
+            <Link className={style.link2} href="/tvshows/ontv">On TV</Link>
+            <Link className={style.link2} href="/tvshows/toprated">Top Rated</Link>
           </div>
           <Link className={style.link} id={style.P} href="#">
             People

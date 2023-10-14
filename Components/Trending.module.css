@@ -3,6 +3,7 @@
     height : 43vh;
     width : 90vw;
     position : relative;
+    margin-top : 2vh;
     left : 5%;
 }
 #trendingNav{
@@ -18,30 +19,28 @@
     font-size: 3vh;
 }
 #today{
-    width: 10vw;
-    height: 3vh;
     display: flex;
     justify-content: space-between;
+    gap : 40px;
     align-items: center;
     border-radius: 20px;
     overflow: hidden;
     border : 1px solid black;
 }
-.bt1{
-    width: 50%;
-    height : 100%;
-    padding-left: 7px;
-    background : linear-gradient(to right,#174d79,#032541);
-    color : white;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.bt2{
+#today input{
     width : 50%;
-    height : 100%;
     padding-right : 7px;
+    border-radius: 20px;
+    color : black;
+}
+#bt{
+    height : 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background : linear-gradient(to right,#174d79,#032541);
     color : black;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 #cardsSections{

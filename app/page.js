@@ -7,9 +7,14 @@ import axios from "@/utils/api.js";
 import Navigation from '@/Components/Navigation.js'
 import Welcome from '@/Components/Welcome.js'
 import Trending from '@/Components/Trending.js'
+import '@/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import LatestTrailer from '@/Components/LatestTrailer.js';
+import Popular from '@/Components/Popular.js'
+
 const page = () => {
   const [movies, setMovies] = useState([]);
   const [bg, setBg] = useState();
+  const buttons = ["Today","This Week"];
   const getMovies = async () => {
     const page = Math.floor(Math.random() * 50);
     try {
@@ -37,7 +42,11 @@ const page = () => {
           <div id="pageOne">
             <Navigation/>
             <Welcome bg={bg}/>
-            <Trending movies={movies}/>
+            <Trending movies={movies} title={"Trending"} buttons={buttons}/>
+          </div>
+          <div id="pageTwo">
+            <LatestTrailer/>
+            <Popular/>
           </div>
         </div>
       </div>

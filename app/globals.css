@@ -26,5 +26,9 @@ height: 100%;
 #pageOne{
     width: 100vw;
     height: 100vh;
+}
+#pageTwo{
+    width: 100vw;
+    height: 100vh;
     background-color: #FFFFFF;
 }

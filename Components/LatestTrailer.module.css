@@ -1,0 +1,89 @@
+.container{
+    height : 43vh;
+    width : 90vw;
+    position : relative;
+    margin-top : 4vh;
+    left : 5%;
+}
+.overlay{
+    height : 100%;
+    width : 100%;
+    padding-left : 4vh;
+    padding-top : 2vh;
+    position : relative;
+    background-color : #112136a0;
+}
+.container img{
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+    object-position : center;
+    position : absolute;
+}
+.nav{
+    display : flex;
+    gap : 10px;
+    position : relative;
+    color : white;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap : 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    border : 1px solid #11C6C3;
+}
+.nav2 input{
+    padding-right : 7px;
+    border-radius: 20px;
+    color : white;
+}
+#btn1{
+    height : 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background : linear-gradient(to right,#174d79,#032541);
+    color : white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.trailer{
+    width :100%;
+    height : 85%;
+    position: relative;
+    overflow: auto;
+    display : flex;
+    gap : 20px;
+    margin-top : 20px;
+}
+.card{
+    width : 20vw;
+    height : 35vh;
+    position : relative;
+
+}
+
+.cardImg{
+    width : 20vw;
+    height : 20vh;
+    position : relative;
+    overflow : hidden;
+    border-radius : 10px;
+    margin-bottom : 7px;
+}
+.cardImg img{
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+    object-position : center;
+}
+.details{
+    width : 100%;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    color : white;
+}
