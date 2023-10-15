@@ -1,0 +1,9 @@
+#bt1{
+    height : 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background : linear-gradient(to right,#174d79,#032541);
+    color : white;
+    border-radius: 20px;
+    overflow: hidden;
+}

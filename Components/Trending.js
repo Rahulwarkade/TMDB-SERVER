@@ -1,17 +1,19 @@
 import React from "react";
 import style from "./Trending.module.css";
+import './buttons.css'
 const Trending = (props) => {
   const { movies, title,buttons} = props;
-
+  var index = 0;
   return (
     <>
       <div id={style.trending}>
         <div id={style.trendingNav}>
           <h3>{title}</h3>
           <div id={style.today}>
-            {buttons.length!=0 && buttons.map((item,index)=>{
-              
-            return (<button id={style.bt} className={style.btn}>{item}</button>)
+            {buttons.length!=0 && buttons.map((item,idx)=>{ 
+              index = index+1;
+              var id = "bt"+index;
+            return (<button id={id} key={idx} className={style.btn}>{item}</button>)
             })}
           </div>
         </div>

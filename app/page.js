@@ -10,6 +10,9 @@ import Trending from '@/Components/Trending.js'
 import '@/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import LatestTrailer from '@/Components/LatestTrailer.js';
 import Popular from '@/Components/Popular.js'
+import Free from '@/Components/Free.js';
+import LeaderBoard from '@/Components/LeaderBoard.js';
+import Footer from '@/Components/Footer.js';
 
 const page = () => {
   const [movies, setMovies] = useState([]);
@@ -47,7 +50,10 @@ const page = () => {
           <div id="pageTwo">
             <LatestTrailer/>
             <Popular/>
+            <Free/>
+            <LeaderBoard/>
           </div>
+          <Footer/>
         </div>
       </div>
     </>
